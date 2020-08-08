@@ -2,6 +2,9 @@
 /shelf/
 /workspace.xml
 
+# /.gitignore
+src/test/resources/Drivers/chromedriver.exe
+src/test/resources/Drivers/geckodriver.exe
 
 # Created by https://www.toptal.com/developers/gitignore/api/maven,windows,java,openframeworks
 # Edit at https://www.toptal.com/developers/gitignore?templates=maven,windows,java,openframeworks
