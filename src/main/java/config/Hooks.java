@@ -3,7 +3,7 @@ package config;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
-public class Hooks {
+public class Hooks extends Base{
     @Before()
     public void beforeTest(){
         System.out.println("Code Before Test");
@@ -12,6 +12,7 @@ public class Hooks {
     @After
     public void afterTest(){
         System.out.println("Code After Test");
+        //driver.close();
     }
 
 }
